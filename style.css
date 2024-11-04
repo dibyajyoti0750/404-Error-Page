@@ -158,37 +158,32 @@
   top: 0.35rem;
 }
 
-.recent-page-one {
-  grid-row: 2 / 7;
-  grid-column: 2 /5;
-  background-color: #f1cfff;
+.recent-page-one,
+.recent-page-two,
+.recent-page-three {
   border-radius: 1rem;
   margin-bottom: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.recent-page-one {
+  grid-row: 2 / 7;
+  grid-column: 2 /5;
+  background-color: #f1cfff;
 }
 
 .recent-page-two {
   grid-row: 2 / 7;
   grid-column: 6 / 9;
   background-color: #e6e6fa;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .recent-page-three {
   grid-row: 2 / 7;
   grid-column: 10 / 13;
   background-color: #fed4ca;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .fa-gem,
